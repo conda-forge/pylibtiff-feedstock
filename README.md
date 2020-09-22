@@ -192,4 +192,5 @@ Feedstock Maintainers
 =====================
 
 * [@bgruening](https://github.com/bgruening/)
+* [@djhoese](https://github.com/djhoese/)
 
