@@ -10,7 +10,7 @@ source:
   sha256: 8b80660541bfc51309b22dd676bcc94a8d77324b00fba3d331b7f564775f17a6
 
 build:
-  number: 1
+  number: 2
   script:
     - cp $RECIPE_DIR/tiff_h_4_1_0.py libtiff/tiff_h_4_1_0.py
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
@@ -43,3 +43,4 @@ about:
 extra:
   recipe-maintainers:
     - bgruening
+    - djhoese
