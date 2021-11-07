@@ -13,7 +13,7 @@ source:
     - ignore-4.3-headers.patch
 
 build:
-  number: 4
+  number: 5
   script:
     - cp $RECIPE_DIR/tiff_h_4_1_0.py libtiff/tiff_h_4_1_0.py
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
