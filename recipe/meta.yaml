@@ -16,6 +16,8 @@ build:
   number: 4
   script:
     - cp $RECIPE_DIR/tiff_h_4_1_0.py libtiff/tiff_h_4_1_0.py
+    - cp $RECIPE_DIR/tiff_h_4_2_0.py libtiff/tiff_h_4_2_0.py
+    - cp $RECIPE_DIR/tiff_h_4_3_0.py libtiff/tiff_h_4_3_0.py
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
 requirements:
@@ -25,11 +27,11 @@ requirements:
     - python
     - pip
     - numpy
-    - libtiff
+    - libtiff <= 4.3.0
   run:
     - python
     - numpy
-    - libtiff
+    - libtiff <= 4.3.0
 
 test:
   imports:
