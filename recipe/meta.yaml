@@ -13,7 +13,7 @@ source:
     - ignore-4.3-headers.patch
 
 build:
-  number: 7
+  number: 8
   script:
     - cp $RECIPE_DIR/tiff_h_4_1_0.py libtiff/tiff_h_4_1_0.py
     - cp $RECIPE_DIR/tiff_h_4_2_0.py libtiff/tiff_h_4_2_0.py
