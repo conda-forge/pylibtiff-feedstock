@@ -1,5 +1,5 @@
 c_compiler:
-- vs2017
+- vs2019
 channel_sources:
 - conda-forge
 channel_targets:
@@ -7,10 +7,8 @@ channel_targets:
 libtiff:
 - '4'
 numpy:
-- '1.19'
+- '1.20'
 pin_run_as_build:
-  libtiff:
-    max_pin: x
   python:
     min_pin: x.x
     max_pin: x.x
