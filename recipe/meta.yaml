@@ -1,19 +1,16 @@
-{% set name = "libtiff" %}
-{% set version = "0.4.2" %}
+{% set name = "pylibtiff" %}
+{% set version = "0.5.0" %}
 
 package:
   name: py{{ name }}
   version: {{ version }}
 
 source:
-  url: https://pypi.python.org/packages/source/l/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8b80660541bfc51309b22dd676bcc94a8d77324b00fba3d331b7f564775f17a6
-  patches:
-    # See https://github.com/pearu/pylibtiff/pull/128
-    - ignore-4.3-headers.patch
+  url: https://pypi.python.org/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 8364f8c31b54d25ada2cebe94be077e5330a3b598b00b79f37b25d9cd8b518ba
 
 build:
-  number: 7
+  number: 0
   script:
     - cp $RECIPE_DIR/tiff_h_4_1_0.py libtiff/tiff_h_4_1_0.py
     - cp $RECIPE_DIR/tiff_h_4_2_0.py libtiff/tiff_h_4_2_0.py
