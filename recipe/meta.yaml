@@ -1,5 +1,5 @@
 {% set name = "pylibtiff" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.0.post0" %}
 
 package:
   name: py{{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.python.org/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8364f8c31b54d25ada2cebe94be077e5330a3b598b00b79f37b25d9cd8b518ba
+  sha256: 82bee948f885966af2d8f26ca5350bc33bc4f5635c1cd28bc604ca2b82e36ea9
 
 build:
   number: 0
