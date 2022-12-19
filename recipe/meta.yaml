@@ -10,7 +10,7 @@ source:
   sha256: 82bee948f885966af2d8f26ca5350bc33bc4f5635c1cd28bc604ca2b82e36ea9
 
 build:
-  number: 1
+  number: 2
   script:
     - cp $RECIPE_DIR/tiff_h_4_1_0.py libtiff/tiff_h_4_1_0.py
     - cp $RECIPE_DIR/tiff_h_4_2_0.py libtiff/tiff_h_4_2_0.py
