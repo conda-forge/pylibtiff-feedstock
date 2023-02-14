@@ -1,5 +1,5 @@
-About pypylibtiff
-=================
+About pylibtiff
+===============
 
 Home: https://github.com/pearu/pylibtiff
 
@@ -286,53 +286,53 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pypylibtiff-green.svg)](https://anaconda.org/conda-forge/pypylibtiff) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pypylibtiff.svg)](https://anaconda.org/conda-forge/pypylibtiff) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pypylibtiff.svg)](https://anaconda.org/conda-forge/pypylibtiff) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pypylibtiff.svg)](https://anaconda.org/conda-forge/pypylibtiff) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pylibtiff-green.svg)](https://anaconda.org/conda-forge/pylibtiff) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pylibtiff.svg)](https://anaconda.org/conda-forge/pylibtiff) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pylibtiff.svg)](https://anaconda.org/conda-forge/pylibtiff) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pylibtiff.svg)](https://anaconda.org/conda-forge/pylibtiff) |
 
-Installing pypylibtiff
-======================
+Installing pylibtiff
+====================
 
-Installing `pypylibtiff` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `pylibtiff` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `pypylibtiff` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `pylibtiff` can be installed with `conda`:
 
 ```
-conda install pypylibtiff
-```
-
-or with `mamba`:
-
-```
-mamba install pypylibtiff
-```
-
-It is possible to list all of the versions of `pypylibtiff` available on your platform with `conda`:
-
-```
-conda search pypylibtiff --channel conda-forge
+conda install pylibtiff
 ```
 
 or with `mamba`:
 
 ```
-mamba search pypylibtiff --channel conda-forge
+mamba install pylibtiff
+```
+
+It is possible to list all of the versions of `pylibtiff` available on your platform with `conda`:
+
+```
+conda search pylibtiff --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search pylibtiff --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search pypylibtiff --channel conda-forge
+mamba repoquery search pylibtiff --channel conda-forge
 
-# List packages depending on `pypylibtiff`:
-mamba repoquery whoneeds pypylibtiff --channel conda-forge
+# List packages depending on `pylibtiff`:
+mamba repoquery whoneeds pylibtiff --channel conda-forge
 
-# List dependencies of `pypylibtiff`:
-mamba repoquery depends pypylibtiff --channel conda-forge
+# List dependencies of `pylibtiff`:
+mamba repoquery depends pylibtiff --channel conda-forge
 ```
 
 
@@ -377,17 +377,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating pypylibtiff-feedstock
-==============================
+Updating pylibtiff-feedstock
+============================
 
-If you would like to improve the pypylibtiff recipe or build a new
+If you would like to improve the pylibtiff recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/pypylibtiff-feedstock are
+Note that all branches in the conda-forge/pylibtiff-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
