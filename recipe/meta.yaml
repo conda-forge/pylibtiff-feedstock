@@ -13,6 +13,7 @@ build:
   number: 4
   script:
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
+    - {{ PYTHON }} -c "import libtiff.libtiff_ctypes"
 
 requirements:
   build:
@@ -33,6 +34,7 @@ requirements:
 test:
   imports:
     - libtiff
+    - libtiff.libtiff_ctypes
 
 about:
   home: https://github.com/pearu/pylibtiff
