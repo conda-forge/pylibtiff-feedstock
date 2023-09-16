@@ -1,5 +1,5 @@
 {% set name = "pylibtiff" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.python.org/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 52d3e00edbb7aecddabeeb4dff76a6c974b7c90a51a7963ddcefee67453633c4
+  sha256: 06784407ac20f96fefe7b913534a63274f31d2013766a224b759d975f3d44eb7
 
 build:
-  number: 3
+  number: 0
   script:
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
@@ -24,11 +24,11 @@ requirements:
     - python
     - pip
     - numpy
-    - libtiff <=4.5.0
+    - libtiff <=4.6.0
   run:
     - python
     - numpy
-    - libtiff <=4.5.0
+    - libtiff <=4.6.0
 
 test:
   imports:
