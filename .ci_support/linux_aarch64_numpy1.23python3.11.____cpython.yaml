@@ -15,7 +15,7 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-aarch64
 libtiff:
-- '4.5'
+- '4.6'
 numpy:
 - '1.23'
 pin_run_as_build:

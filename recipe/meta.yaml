@@ -24,11 +24,11 @@ requirements:
     - python
     - pip
     - numpy
-    - libtiff <=4.5.0
+    - libtiff <=4.6.0
   run:
     - python
     - numpy
-    - libtiff <=4.5.0
+    - libtiff <=4.6.0
 
 test:
   imports:
