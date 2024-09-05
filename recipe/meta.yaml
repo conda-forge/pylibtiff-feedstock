@@ -26,6 +26,7 @@ requirements:
     - pip
     - numpy
     - libtiff <=4.6.0
+    - setuptools
   run:
     - python
     - numpy
