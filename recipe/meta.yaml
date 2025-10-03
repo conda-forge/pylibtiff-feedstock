@@ -1,5 +1,5 @@
 {% set name = "pylibtiff" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.python.org/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a8df76c54fefedda767b04d22832ca1b92271f425631ccc26b89026194c66628
+  sha256: b23e751c0ed46a48433523755ab2fbaf405d9f88eced3358482ff5ded749de0c
 
 build:
-  number: 4
+  number: 0
   script:
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
