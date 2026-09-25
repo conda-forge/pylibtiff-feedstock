@@ -25,12 +25,12 @@ requirements:
     - python
     - pip
     - numpy
-    - libtiff
+    - libtiff <=4.7.0
     - setuptools
   run:
     - python
     - numpy
-    - libtiff
+    - libtiff <=4.7.0
 
 test:
   imports:
